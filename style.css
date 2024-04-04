@@ -1,0 +1,71 @@
+#student-data{
+    display:  grid;
+   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 2.5rem;
+    place-items: center;
+    margin: 15px;
+}
+#parent{
+    background-color:rgb(230, 230, 253);
+}
+.card{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0.5rem;
+    width:12rem;
+    border: 1px solid black;
+}
+
+span{
+    font-weight: bold;
+    font-size: large;
+}
+.btn{
+    padding: 7px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(16, 214, 16);
+    background-color: green;
+    margin: 8px;
+}
+#add-btn{
+   margin-left: 1rem;
+}
+.input-text{
+    padding: 8px;
+    margin: 3px;
+    color:black;
+    background-color:rgb(230, 230, 253);
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;border: 1px solid black;
+    padding:15px;
+    background-color: greenyellow;
+    color: rgb(36, 34, 34);
+    font-weight: bolder;
+}
+#edit-btn:hover{
+    background-color: green;
+    background-color: rgb(251, 255, 0);
+}
+#delete-btn:hover{
+    background-color: rgb(243, 7, 7);
+}
+.btn:hover{
+    background-color: rgb(28, 29, 28);
+}
+#update-btn{
+    margin-left: 18px;
+}
